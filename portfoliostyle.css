@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 150%;
+    background: #dddddd;
+
+}
+
+.NavBar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: white;
+    border-bottom: 2px solid dimgray;
+}
+
+#PageLinks {
+    float: right;
+    color: #777777;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+h1 {
+    background: #4aaaa5;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 65%;
+}
+
+
+.container {
+   
+    margin: 0 auto;
+    left: 75px;
+    right: 75px;
+    padding: 145px;
+    width: 75%;
+    position: fixed;
+    top: -60px;
+    
+}
+
+
+#Portfolio
+{
+    clear: both;
+    float: left;
+    background: white;
+    border-top: 45px solid white;
+    border-right: 600px solid white;
+    border-bottom: 45px solid white;
+    border-left: 45px solid white;
+    
+}
+
+
+h2 {
+    clear: both;
+    color: #4aaaa5;
+    font-size: 28px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+    width: 230%;
+}
+
+
+footer {
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    border-top: 10px solid #4aaaa5 ;
+    background: #666666 ;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+
+}
+
+#hangman,
+#rpggame,
+#trivia,
+#rutgers,
+#rps {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+
+}
+
+
+figcaption {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+}
+
+#hangman {
+    float: left;
+    width: 10%;
+    
+}
+
+#rpggame {
+    float: right;
+    width: 10%;
+
+}
+
+#trivia {
+    clear: both;
+    float: left;
+}
+
+#rutgers {
+    clear: both;
+    float: right;
+    position: fixed;
+    top: 410px;
+    right: 875px;
+}
+
+#rps {
+    clear: both;
+    float: left;
+    padding-top: 20px;
+}

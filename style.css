@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 150%;
+    background: #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.NavBar {
+    background: white;
+    border-bottom: 2px solid dimgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#PageLinks {
+    float: right;
+    color: #777777;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    right: 470px;
+
+}
+
+h1 {
+    background: #4aaaa5;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 65%;
+}
+
+
+.container {
+    width: 960px;
+    height: 960px;
+    margin: 0 auto;
+    left: 75px;
+    right: 75px;
+    padding: 145px;
+    width: 75%;
+    position: fixed;
+    top: -20px;
+    
+}
+
+#Bio,
+#About_Me,
+#info,
+#Pic {
+    clear: both;
+    float: left;
+    background: white;
+    border-top: 45px solid white;
+    border-right: 45px solid white;
+    border-bottom: 45px solid white;
+    border-left: 45px solid white;
+    
+}
+
+#Pic {
+    float: left;
+    width: 33%;
+}
+
+#About_Me {
+    width: 10px;
+    border-bottom: 2px solid gray;
+}
+
+
+h2 {
+    clear: both;
+    color: #4aaaa5;
+    font-size: 40px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+}
+
+
+footer {
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    border-top: 10px solid #4aaaa5 ;
+    background: #666666 ;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+
+}
+
+input[type=name], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=message], select {
+    width: 100%;
+    padding: 50px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
